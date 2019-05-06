@@ -1,0 +1,19 @@
+{
+  "name": "stuck-with-incremental",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "immer": "^3.1.1",
+    "redux": "^4.0.1",
+    "redux-advanced": "^0.11.1",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "buildIncremental": "tsc -p ./tsconfig-incremental.json"
+  }
+}
